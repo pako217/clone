@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "samc", "samc\samc.vcxproj", "{C67DA02A-0782-497D-AAB1-730E26C25EE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F775900-4B03-880B-B4B1-880BA05C880B} = {5F775900-4B03-880B-B4B1-880BA05C880B}
+		{C499947C-B0D0-950D-59BD-7B1045D3110F} = {C499947C-B0D0-950D-59BD-7B1045D3110F}
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3} = {A7B931CA-136F-AABF-9C63-A4960818A1C3}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{510CE732-8F03-4593-8B2B-63E256E18391}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bx", "Dependencies\bkaradzic\bgfx\.build\projects\vs2017\bx.vcxproj", "{5F775900-4B03-880B-B4B1-880BA05C880B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bimg", "Dependencies\bkaradzic\bgfx\.build\projects\vs2017\bimg.vcxproj", "{C499947C-B0D0-950D-59BD-7B1045D3110F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bimg_decode", "Dependencies\bkaradzic\bgfx\.build\projects\vs2017\bimg_decode.vcxproj", "{A7B931CA-136F-AABF-9C63-A4960818A1C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C67DA02A-0782-497D-AAB1-730E26C25EE0}.Debug|x64.ActiveCfg = Debug|x64
+		{C67DA02A-0782-497D-AAB1-730E26C25EE0}.Debug|x64.Build.0 = Debug|x64
+		{C67DA02A-0782-497D-AAB1-730E26C25EE0}.Debug|x86.ActiveCfg = Debug|Win32
+		{C67DA02A-0782-497D-AAB1-730E26C25EE0}.Debug|x86.Build.0 = Debug|Win32
+		{C67DA02A-0782-497D-AAB1-730E26C25EE0}.Release|x64.ActiveCfg = Release|x64
+		{C67DA02A-0782-497D-AAB1-730E26C25EE0}.Release|x64.Build.0 = Release|x64
+		{C67DA02A-0782-497D-AAB1-730E26C25EE0}.Release|x86.ActiveCfg = Release|Win32
+		{C67DA02A-0782-497D-AAB1-730E26C25EE0}.Release|x86.Build.0 = Release|Win32
+		{5F775900-4B03-880B-B4B1-880BA05C880B}.Debug|x64.ActiveCfg = Debug|x64
+		{5F775900-4B03-880B-B4B1-880BA05C880B}.Debug|x64.Build.0 = Debug|x64
+		{5F775900-4B03-880B-B4B1-880BA05C880B}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F775900-4B03-880B-B4B1-880BA05C880B}.Debug|x86.Build.0 = Debug|Win32
+		{5F775900-4B03-880B-B4B1-880BA05C880B}.Release|x64.ActiveCfg = Release|x64
+		{5F775900-4B03-880B-B4B1-880BA05C880B}.Release|x64.Build.0 = Release|x64
+		{5F775900-4B03-880B-B4B1-880BA05C880B}.Release|x86.ActiveCfg = Release|Win32
+		{5F775900-4B03-880B-B4B1-880BA05C880B}.Release|x86.Build.0 = Release|Win32
+		{C499947C-B0D0-950D-59BD-7B1045D3110F}.Debug|x64.ActiveCfg = Debug|x64
+		{C499947C-B0D0-950D-59BD-7B1045D3110F}.Debug|x64.Build.0 = Debug|x64
+		{C499947C-B0D0-950D-59BD-7B1045D3110F}.Debug|x86.ActiveCfg = Debug|Win32
+		{C499947C-B0D0-950D-59BD-7B1045D3110F}.Debug|x86.Build.0 = Debug|Win32
+		{C499947C-B0D0-950D-59BD-7B1045D3110F}.Release|x64.ActiveCfg = Release|x64
+		{C499947C-B0D0-950D-59BD-7B1045D3110F}.Release|x64.Build.0 = Release|x64
+		{C499947C-B0D0-950D-59BD-7B1045D3110F}.Release|x86.ActiveCfg = Release|Win32
+		{C499947C-B0D0-950D-59BD-7B1045D3110F}.Release|x86.Build.0 = Release|Win32
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3}.Debug|x64.ActiveCfg = Debug|x64
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3}.Debug|x64.Build.0 = Debug|x64
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3}.Debug|x86.Build.0 = Debug|Win32
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3}.Release|x64.ActiveCfg = Release|x64
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3}.Release|x64.Build.0 = Release|x64
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3}.Release|x86.ActiveCfg = Release|Win32
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F775900-4B03-880B-B4B1-880BA05C880B} = {510CE732-8F03-4593-8B2B-63E256E18391}
+		{C499947C-B0D0-950D-59BD-7B1045D3110F} = {510CE732-8F03-4593-8B2B-63E256E18391}
+		{A7B931CA-136F-AABF-9C63-A4960818A1C3} = {510CE732-8F03-4593-8B2B-63E256E18391}
+	EndGlobalSection
+EndGlobal

@@ -1,4 +1,6 @@
-.build
+samc/Dependencies/bkaradzic/bgfx/.build/
+samc/tmp/
+samc/.vs/
 .debug
 .DS_Store
 .git
