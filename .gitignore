@@ -7,6 +7,7 @@ samc/Dependencies/SDL/VisualC-WinRT/
 samc/Dependencies/SDL/Xcode/
 samc/Dependencies/SDL/Xcode-iOS/
 samc/Dependencies/SDL/Android.mk
+samc/Dependencies/SDL/.vs/
 
 
 .debug
