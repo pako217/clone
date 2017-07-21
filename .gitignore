@@ -1,6 +1,14 @@
 samc/Dependencies/bkaradzic/bgfx/.build/
 samc/tmp/
 samc/.vs/
+samc/Dependencies/glm/doc/
+samc/Dependencies/SDL/docs/
+samc/Dependencies/SDL/VisualC-WinRT/
+samc/Dependencies/SDL/Xcode/
+samc/Dependencies/SDL/Xcode-iOS/
+samc/Dependencies/SDL/Android.mk
+
+
 .debug
 .DS_Store
 .git

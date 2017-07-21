@@ -13,3 +13,4 @@
 
 
 // TODO: W tym miejscu odwo³aj siê do dodatkowych nag³ówków wymaganych przez program
+#include "glm\glm.hpp"
