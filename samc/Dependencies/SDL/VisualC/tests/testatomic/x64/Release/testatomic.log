@@ -1,0 +1,6 @@
+﻿  testatomic.c
+..\..\..\test\testatomic.c(695): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+..\..\..\test\testatomic.c(698): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+..\..\..\test\testatomic.c(701): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+     Trwa tworzenie biblioteki C:\Users\somatin\Airmech\samc\Dependencies\SDL\VisualC\x64\Release\testatomic.lib i obiektu C:\Users\somatin\Airmech\samc\Dependencies\SDL\VisualC\x64\Release\testatomic.exp
+  testatomic.vcxproj -> C:\Users\somatin\Airmech\samc\Dependencies\SDL\VisualC\x64\Release\testatomic.exe
