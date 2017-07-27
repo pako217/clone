@@ -7,10 +7,12 @@
 
 #include "targetver.h"
 
-#include <stdio.h>
-#include <tchar.h>
+#define WIN32_LEAN_AND_MEAN           // Wyklucz rzadko u¿ywane rzeczy z nag³ówków systemu Windows
 
 
 
 // TODO: W tym miejscu odwo³aj siê do dodatkowych nag³ówków wymaganych przez program
-#include "glm\glm.hpp"
+
+#include <string>
+#include <memory>
+#include <unordered_map>
